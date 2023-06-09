@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover {
+    color: brown;
+}
+
+div:hover > p {
+    display: block;
+    color: green;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    display: inline-block;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    height: 60px;
+    width: 180px;
+}
+
+div:hover {
+    background-color: coral;
+}
