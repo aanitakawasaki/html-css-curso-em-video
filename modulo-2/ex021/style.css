@@ -1,0 +1,27 @@
+/*a {
+    display: block;
+}*/
+
+h1 {
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    border-width: 50px;
+    border-style: solid;
+    border-color: black;
+    /*porque a border não está funcionando? ATT: não estava funcionando pois eu não tinha configurado a border-style!*/
+    margin: 100px;
+
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+    /*ou você pode colocar todas essas medidas de uma vez só, seguindo essa ordem (sentido horário), como abaixo:*/
+    padding: 50px 50px 50px 50px;
+}
+
+a {
+    border-width: 10px;
+    border-style: groove;
+    border-color: black;
+}
