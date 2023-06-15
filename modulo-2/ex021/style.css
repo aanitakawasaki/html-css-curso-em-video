@@ -10,18 +10,26 @@ h1 {
     border-style: solid;
     border-color: black;
     /*porque a border não está funcionando? ATT: não estava funcionando pois eu não tinha configurado a border-style!*/
-    margin: 100px;
-
+  
     /*padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;*/
     /*ou você pode colocar todas essas medidas de uma vez só, seguindo essa ordem (sentido horário), como abaixo:*/
     padding: 50px 50px 50px 50px;
+
+    /*quando você coloca uma só medida para margin e tals ela fica com esse mesmo valor pro top, rigth, bottom e left. quando você coloca duas medidas, a primeira vai servir para top e bottom e a segunda vai servir para right e left*/
+    margin: 40px 10px 50px 10px;
+
+    outline: 10px;
+    outline-style: dashed;
+    outline-color: burlywood;
+    /*display: inline;*/
 }
 
 a {
     border-width: 10px;
     border-style: groove;
     border-color: black;
+    /*display: block*/;
 }
