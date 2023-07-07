@@ -1,0 +1,10 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+    border: 10px solid slateblue;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
