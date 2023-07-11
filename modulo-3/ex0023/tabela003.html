@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <caption>Nome da tabela</caption>
+        <thead>
+            <tr>
+                <th scope="col">coluna 1</th>
+                <th scope="col">coluna 2</th>
+                <th scope="col">coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dado</td>
+                <td>dado</td>
+                <td rowspan="2">dado</td>
+            </tr>
+            <tr>
+                <td>dado</td>
+                <td>dado</td>
+            </tr>
+            <tr>
+                <td>dado</td>
+                <td>dado</td>
+                <td>dado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="col">total:</th>
+                <td colspan="2">100</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

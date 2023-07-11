@@ -1,0 +1,7 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+caption, th, td {
+    border: 1px solid black;
+}
