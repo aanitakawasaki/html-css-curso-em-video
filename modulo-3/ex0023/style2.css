@@ -1,6 +1,13 @@
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
 }
 
 thead {
@@ -10,6 +17,16 @@ thead {
 th {
     border: 1px solid black;
     padding: 10px;
+}
+
+thead {
+    position: sticky;
+    top: -1;
+    background-color: gray;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgrey;
 }
 
 td {
